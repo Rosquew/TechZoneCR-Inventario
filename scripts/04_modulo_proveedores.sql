@@ -1,7 +1,7 @@
 -- TechZone CR - Avance 2
 -- Módulo 02: Gestión de proveedores
 -- Contiene las operaciones CRUD de la tabla proveedores
-
+-- Encargada: Mariana
 USE techzone_cr;
 
 DELIMITER $$
