@@ -1,3 +1,5 @@
+-establece una conexióna la BD usando los datos en config.py
+
 import mysql.connector
 from mysql.connector import Error
 
