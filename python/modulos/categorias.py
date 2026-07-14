@@ -1,3 +1,4 @@
+--funciones CRUD para gestionar categorías en la base de datos, todas usando stored procedures
 def listar_categorias(conexion):
     cursor = conexion.cursor()
 
