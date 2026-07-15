@@ -80,7 +80,7 @@ BEGIN
 
     CLOSE cur_valor_inventario;
 
-    -- Recorrer compras por cliente
+    -- Recorrer compras porr cliente
     SET terminado = 0;
 
     OPEN cur_compras_clientes;
