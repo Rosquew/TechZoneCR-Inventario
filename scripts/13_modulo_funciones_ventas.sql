@@ -5,7 +5,7 @@ USE techzone_cr;
 
 DELIMITER $$
 
--- Función 6: Obtener el total de una venta
+-- Función 6: Obtener total de una venta
 DROP FUNCTION IF EXISTS fn_venta_total$$
 
 CREATE FUNCTION fn_venta_total(
