@@ -81,7 +81,7 @@ BEGIN
 
 END$$
 
--- Procedimiento 19: Actualizar una venta
+-- Procedimiento 19: Actualizar la venta
 DROP PROCEDURE IF EXISTS sp_ventas_actualizar$$
 
 CREATE PROCEDURE sp_ventas_actualizar(
