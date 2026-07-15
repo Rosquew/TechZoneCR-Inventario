@@ -6,7 +6,7 @@ USE techzone_cr;
 
 DELIMITER $$
 
--- Procedimiento 21: Agregar un producto a una venta
+-- Procedimiento 21: Agregar un producto a la venta
 DROP PROCEDURE IF EXISTS sp_detalle_venta_insertar$$
 
 CREATE PROCEDURE sp_detalle_venta_insertar(
