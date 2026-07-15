@@ -31,7 +31,7 @@ def listar_ventas(conexion):
 
 def registrar_venta(conexion):
     try:
-        cliente_id = int(input("ID del cliente: "))
+        cliente_id = int(input("ID de cliente: "))
 
     except ValueError:
         print("El ID del cliente debe ser un número.")
