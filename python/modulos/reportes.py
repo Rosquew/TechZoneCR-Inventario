@@ -34,7 +34,7 @@ def ejecutar_reporte(conexion, procedimiento, titulo):
             print("No se encontraron datos para este reporte.")
 
     except Exception as error:
-        print(f"Error al generar el reporte: {error}")
+        print(f"Fallo al generar el reporte: {error}")
 
     finally:
         cursor.close()
