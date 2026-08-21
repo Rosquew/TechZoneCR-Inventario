@@ -1,3 +1,4 @@
+--CRUD Proveedores
 def listar_proveedores(conexion):
     cursor = conexion.cursor()
 

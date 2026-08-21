@@ -5,7 +5,7 @@ USE techzone_cr;
 
 DELIMITER $$
 
--- Función 1: Obtener la cantidad total de productos
+-- Función 1: Obtener cantidad total de productos
 DROP FUNCTION IF EXISTS fn_productos_total$$
 
 CREATE FUNCTION fn_productos_total()

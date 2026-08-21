@@ -27,7 +27,7 @@ INNER JOIN categorias c
 INNER JOIN proveedores pr
     ON p.proveedor_id = pr.proveedor_id;
 
--- Vista 2: Productos con stock bajo
+-- Vista 2: Productos de stock bajo
 CREATE OR REPLACE VIEW vw_productos_bajo_stock AS
 SELECT
     p.producto_id,

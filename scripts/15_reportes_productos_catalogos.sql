@@ -1,11 +1,11 @@
--- TechZone CR - Avance 2
+-- TechZone CR - Avance 2https://github.com/Rosquew/TechZoneCR-Inventario/blob/main/scripts/15_reportes_productos_catalogos.sql
 -- Reportes de productos y catálogos con cursores
 
 USE techzone_cr;
 
 DELIMITER $$
 
--- Reportes relacionados con productos
+-- Reportes relacionadoss con productos
 DROP PROCEDURE IF EXISTS sp_reporte_productos$$
 
 CREATE PROCEDURE sp_reporte_productos()

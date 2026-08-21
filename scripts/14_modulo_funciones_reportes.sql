@@ -5,7 +5,7 @@ USE techzone_cr;
 
 DELIMITER $$
 
--- Cuenta los productos de una categoría
+-- Cuenta  productos de una categoría
 DROP FUNCTION IF EXISTS fn_categoria_total_productos$$
 
 CREATE FUNCTION fn_categoria_total_productos(

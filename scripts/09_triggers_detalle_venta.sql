@@ -47,7 +47,7 @@ BEGIN
 
 END$$
 
--- Trigger 2: Procesar la inserción de un detalle
+-- Trigger 2: Procesar la inserción del  detalle
 DROP TRIGGER IF EXISTS trg_detalle_ai_procesar$$
 
 CREATE TRIGGER trg_detalle_ai_procesar

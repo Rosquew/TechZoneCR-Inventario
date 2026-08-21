@@ -1,6 +1,6 @@
 -- TechZone CR - Avance 2
 -- Script 01: Creación de las tablas del proyecto
-
+-- Encargada: Mariana
 USE techzone_cr;
 
 -- Tabla categorias

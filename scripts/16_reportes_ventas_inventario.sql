@@ -36,7 +36,7 @@ BEGIN
             ON v.cliente_id = c.cliente_id
         ORDER BY v.venta_id;
 
-    -- Cursor 8: Detalles de las ventas
+    -- Cursor 8: Detalles de ventas
     DECLARE cur_detalles CURSOR FOR
         SELECT
             dv.venta_id,

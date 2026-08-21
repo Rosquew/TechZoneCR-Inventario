@@ -1,7 +1,7 @@
 -- TechZone CR - Avance 2
 -- Módulo 01: Gestión de categorías
 -- Contiene las operaciones CRUD de la tabla categorias
-
+-- Encargada: Mariana
 USE techzone_cr;
 
 DELIMITER $$
